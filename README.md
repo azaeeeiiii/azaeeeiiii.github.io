@@ -4,7 +4,7 @@ This portfolio website is designed to showcase my skills, projects, and interest
 
 Here's the link of my website:
 
-[View Website] (https://azaeeeiiii.github.io/index.html)
+[View Website] (https://azaeeeiiii.github.io/)
 
 If you'd like too see a video demonstration: 
 
