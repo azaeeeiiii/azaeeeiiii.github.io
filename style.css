@@ -123,6 +123,7 @@ nav .right a:last-child {
     text-align: left;
     margin-top: 80px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .cover .text h2 {
@@ -270,6 +271,7 @@ nav .right a:last-child {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
     margin: 20px auto; 
     max-width: 80%;
 }
@@ -753,27 +755,76 @@ a:hover .crochet-image {
     margin-top: 5px;
 }
 
-.sdg-challenges {
-    text-align: center;
-}
-
-
 /*CHALLENGES*/
 
-.container {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding:20px;
-}
-
-.job-insecurity, .wage-inequality, .access-to-finance, .discrimination {
-    background-color: #f9f9f9;
+.sdg-challenges, .job-insecurity, .wage-inequality, .access-to-finance, .digital-divide {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
     border-radius: 5px;
     box-sizing: border-box;
-    padding: 15px;
-    width: 48%;
+}
+
+.sdg-challenges h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.job-insecurity h4, .wage-inequality h4, .access-to-finance h4, .digital-divide h4 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.sdg-challenges, .job-insecurity, .wage-inequality, .access-to-finance, .digital-divide {
+    width: 100%;
+}
+
+.job-insecurity p, .wage-inequality p, .access-to-finance p, .digital-divide p {
+    text-align: justify;
+}
+
+.image-source {
+    font-size: 0.7em;
+    color: #777;
+    margin-top: 5px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .sdg-challenges, .job-insecurity, .wage-inequality, .access-to-finance, .digital-divide {
+        width: 100%;
+        padding: 10px;
+    }
+    .job-insecurity p, .wage-inequality p, .access-to-finance p, .digital-divide p {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+    img {
+        max-width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 460px) {
+    .sdg-challenges h3, .job-insecurity h4, .wage-inequality h4, .access-to-finance h4, .digital-divide h4 {
+        font-size: 1.1em;
+}
+    .job-insecurity p, .wage-inequality p, .access-to-finance p, .digital-divide p {
+        font-size: 0.9em;
+    }
 }
 
 .solution {
